@@ -1,0 +1,44 @@
+/* change background color for each webpage */
+body {
+background-color: lightgray;
+}
+
+/* make all the header titles change to this color font */
+h2 {
+color:mediumaquamarine;
+}
+
+/* format the logo in the navigation bar */
+.navbar-brand {
+padding: 15px;
+background-color: mediumaquamarine;
+}
+
+/* format the navigation bar */
+.navbar {
+background-color: white;
+padding: 15px;
+}
+
+/* format the body of each webpage */
+.container{
+background-color: white;
+margin-top: 50px;
+padding: 75px;
+}
+
+/* change font color to this color */
+.comparisions {
+color: mediumaquamarine;
+}
+
+/* media query to change the navigation bar when the width of the page becomes smaller than 768 pixels */
+@media (max-width: 768px) {
+    .navbar {
+        background-color: mediumaquamarine !important;
+    }
+    .navbar-brand {
+        color: white !important;
+    }
+
+}
